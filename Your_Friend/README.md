@@ -8,3 +8,15 @@ Initially I created a bot account on Webex for Developers. In order make the bot
 
 It was inspired by my personal challenges during this pandemic period. I had some trouble getting my bot to respond  initially but finally it's all worked out  and I'm happy :)
 
+## Steps
+1. Download the source code and make an account in webex teams
+2. install node.js
+3. install nGrok
+4. run ./ngrok http 7001 --region=eu in same directory as the nGrok executable
+5. write down the web address that's tunneling to your localhost:7001
+6. go to config file of code and paste this address in webhookUrl value
+7. open Node.js command prompt
+8. Change to Your_Friend directory
+9. Write command npm start
+10. Add bot to a space in Webex Teams using myfriend@webex.bot
+11. Ask away!!
